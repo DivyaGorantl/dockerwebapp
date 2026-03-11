@@ -4,7 +4,7 @@ services:
  devopsdb:
    image: shaikmustafa/harikanew:dbimage
    ports:
-     - "3306:3306"
+     - "2222:3306"
 
  application:
    image: shaikmustafa/harikanew:appimage
